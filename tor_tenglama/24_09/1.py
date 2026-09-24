@@ -25,6 +25,7 @@ for i in range(10):
 input()
 lamda = 0.5
 print("\nHisoblangan natija:\n")
+
 # hisoblash
 for j in range(9):
     for i in range(1, 9):
