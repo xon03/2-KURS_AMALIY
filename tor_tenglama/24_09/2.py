@@ -27,3 +27,12 @@ for i in range(10):
     for j in range(10):
         print(f"{T2[i][j]:5.2f}", end=" ")
     print()
+
+x = np.linspace(0, 60, 10)
+y = np.linspace(0, 60, 10)
+X, Y = np.meshgrid(x, y)
+contour = plt.contourf(X, Y, T2, cmap='viridis') #
+plt.clabel(contour, inline=True, fontsize=10) #
+plt.colorbar(contour) #
+plt.title("Konturli grafik")
+plt.show()
