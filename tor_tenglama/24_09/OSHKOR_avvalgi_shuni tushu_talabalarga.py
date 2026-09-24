@@ -20,7 +20,8 @@ for i in range(10):
     for j in range(10):
         print(f"{u[i][j]:5.2f}", end=" ")
     print()
-input()    
+input()
+
 lamda = 0.5
 print("\nHisoblangan natija:\n")
 # hisoblash
