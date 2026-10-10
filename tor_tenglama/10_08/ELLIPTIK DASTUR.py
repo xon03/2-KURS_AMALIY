@@ -71,8 +71,9 @@ while True:
     Delta = Delta / ((M-1)*(N-1))
 
     N_iter += 1
+    print(" Iteratsiya =", N_iter, "Delta =", Delta)
 
-    if Delta < 1e-7:
+    if Delta < 1e-3:
         break
 
 print("Omega =", omega, " Iteratsiya =", N_iter)
